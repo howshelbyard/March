@@ -1,10 +1,10 @@
 body{
-	background-color: #189E3D;
+	background-color: white;
 }
 
 h1{
 	background-color: #ADF6C1  ;
-	color: #2E2B0D  ;
+	color: black  ;
 	font-family: 'Macondo', cursive;
 	font-size: 3em;
 	text-align: center;
@@ -14,15 +14,16 @@ h1{
 }
 
 h2{
-	color: #2E2B0D  ;
+	color: black  ;
 	font-family: 'Macondo', cursive;
 	font-size: 2.5em;
+	text-align: center;
 
 }
 
 .text{
 	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
+	color: black;
 	float: left;
 	font-size: 1.5em;
 
@@ -30,8 +31,57 @@ h2{
 
 #meals{
 	float: right;
-	background-color: #2E2B0D;
-	color: white;
+	background-color: #ADF6C1;
+	color: black;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.5em;
+}
+
+#buttonFebruary{
+	float: left;
+ 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+
+
+
+}
+.buttonHome{
+
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+   	font-family: 'Source Sans Pro', sans-serif;
+
+}
+#buttonApril{
+	float: right;
+ 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+
+}
+
+img{
+	padding-left: 250px;
 }
